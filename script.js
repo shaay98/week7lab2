@@ -10,8 +10,6 @@ let products = [
 ];
 
 function Table = {
-      const tableBody = document.getElementById('product-Table');
-      tableBody.innerHTML = 'tb';}
-
-      products.forEach(product => {
-        const 
+const tableBody = document.getElementById("product-table");
+tableBody.innerHTML = 'tb';}
+products.forEach(product => {
