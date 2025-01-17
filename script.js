@@ -9,4 +9,9 @@ let products = [
 { id: 6, name: 'Ring Video Doorbell', price: 99.99, quantity: 1 }
 ];
 
+function Table = {
+      const tableBody = document.getElementById('product-Table');
+      tableBody.innerHTML = 'tb';}
 
+      products.forEach(product => {
+        const 
